@@ -15,6 +15,7 @@ export default class TemperatureInput extends Component {
   handleChange(e) {
     // this.setState({ temperature: e.target.value });
     this.props.onTemperatureChange(e.target.value);
+    
   }
 
   render() {
